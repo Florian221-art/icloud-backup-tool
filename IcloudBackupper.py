@@ -55,8 +55,8 @@ def create_backup(source_dir, backup_base_dir):
 
 # Example: Backup from "source_folder" to "backup_folder"
 zip_Name = "iCloud" #name of the zip file
-source_folder = r"D:\01_Coding\04_GitHubProjects\TestFolder"  # Source directory
-backup_folder = r"D:\01_Coding\04_GitHubProjects\BackupFolder"  # Backup directory
+source_folder = r"example directory"  # Source directory
+backup_folder = r"example directory"  # Backup directory
 
 create_backup(source_folder, backup_folder)
 
